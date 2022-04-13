@@ -1,0 +1,32 @@
+{
+  "name": "rate-my-ride",
+  "version": "1.0.0",
+  "description": "Aplicación para calificar método de transporte",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos1200/rate-my-ride.git"
+  },
+  "keywords": [
+    "ride",
+    "rating",
+    "transport"
+  ],
+  "author": "Carlos Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos1200/rate-my-ride/issues"
+  },
+  "homepage": "https://github.com/Carlos1200/rate-my-ride#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
